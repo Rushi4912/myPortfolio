@@ -35,6 +35,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import rushi from '../assets/rushi.png';
+import rushikesh from '../assets/rushikesh.jpeg'
 
 export default {
   email,
@@ -71,4 +72,5 @@ export default {
   skype,
      spotify,
   rushi,
+  rushikesh,
 };
