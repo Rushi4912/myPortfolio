@@ -2,6 +2,7 @@ import React from 'react';
 import "./Header.scss";
 import {motion} from 'framer-motion'
 import { images } from "../../constants";
+import {AppWrap} from '../../wrapper'
 
 const scaleVarients = {
 
@@ -20,7 +21,7 @@ const scaleVarients = {
 
 const Header = () => {
   return (
-    <div id = "home" className='app_header app_flex'>
+    <div className='app_header app_flex'>
       
       <motion.div
       
@@ -108,4 +109,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default AppWrap(Header, 'home');

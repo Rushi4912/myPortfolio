@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react';
 import{images} from '../../constants'
+import { AppWrap } from '../../wrapper';
 
 import "./About.scss";
 // import {urlFor,client} from '../../client'
@@ -45,10 +46,10 @@ const About = () => {
       <h2 className='head-text'>
         
         I know that
-        <span> Good design</span>
+        <span> Good UI</span>
         <br/>
         means
-        <span> Good Businesss</span>
+        <span> Good Business</span>
       </h2>
       
       <div className='app_profiles'>
@@ -82,4 +83,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap(About, 'about');
